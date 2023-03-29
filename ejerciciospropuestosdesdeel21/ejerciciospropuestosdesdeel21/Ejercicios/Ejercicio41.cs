@@ -126,6 +126,7 @@ namespace ejerciciospropuestosdesdeel21.Ejercicios
             Random rand = new Random();
 
             Console.Clear();
+            Console.WriteLine();
             Console.WriteLine("Atento a los números");
             nSerie.Clear();
 
