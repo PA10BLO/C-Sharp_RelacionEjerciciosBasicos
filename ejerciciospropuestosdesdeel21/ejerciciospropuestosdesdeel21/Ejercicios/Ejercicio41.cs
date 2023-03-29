@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace ejerciciospropuestosdesdeel21.Ejercicios
 {
@@ -28,7 +29,6 @@ namespace ejerciciospropuestosdesdeel21.Ejercicios
 
 
             Console.SetCursorPosition(Console.CursorLeft + 49, Console.CursorTop -1);
-
             Point point = new Point(Console.CursorLeft, Console.CursorTop);
 
             while (tecla.Key != ConsoleKey.Enter)
@@ -38,17 +38,13 @@ namespace ejerciciospropuestosdesdeel21.Ejercicios
                 {
                     Console.SetCursorPosition(Console.CursorLeft, Console.CursorTop - 1);
                     point.Y = Console.CursorTop;
-                    //prueba = Convert.ToInt32(point.Y);
-                    //Console.Write(prueba);
                 }
-                if (tecla.Key == ConsoleKey.DownArrow && point.Y < 7 /*&& point.Y < 8)*/ )
+                if (tecla.Key == ConsoleKey.DownArrow && point.Y < 7)
                 {
                     Console.SetCursorPosition(Console.CursorLeft, Console.CursorTop + 1);
                     point.Y = Console.CursorTop;
                 }
-                //prueba = Convert.ToInt32(point.Y);
                 prueba = Convert.ToInt32(point.Y);
-                //Console.Write(prueba);
             }
 
 
@@ -71,26 +67,71 @@ namespace ejerciciospropuestosdesdeel21.Ejercicios
 
             List<int> nSerie = new List<int>();
 
-            //var nSerie = new int[] { 1, 2, 3 };
+            int wow;
+
+            if (v.Equals("Fácil"))
+            {
+                wow = 10;
+                EscribirSerie(wow, nSerie);
+            }else if (v.Equals("Media"))
+            {
+                wow = 5;
+                EscribirSerie(wow, nSerie);
+            }else if (v.Equals("Díficil"))
+            {
+                wow = 2;
+                EscribirSerie(wow, nSerie);
+            }
+                
+        }
+
+        private static void EscribirSerie(int wow, List<int> nSerie)
+        {
+            string mensaje = "";
+
 
             for (int i = 1; i < 11; i++)
             {
-                SiguienteSerie(i, nSerie);
-                Console.ReadLine();
-            }
-        }
+                nSerie = SiguienteSerie(i, nSerie);
+                Console.WriteLine();
 
-        private static void SiguienteSerie(int i, List<int> nSerie)
+                for (int j = 0; j < wow; j++)
+                {
+                    Console.Write("*");
+                    Thread.Sleep(1000);
+                }
+                Console.Clear();
+
+                int nadivinar;
+
+                Console.WriteLine("Ahora escribe los números mostrados en pantalla anteriormente: ");
+                for (int j = 0; j < nSerie.Count; j++)
+                {
+                    nadivinar = ControladorMensajes.MensajePredeterminado<int>(mensaje);
+                    if (nSerie[j] == nadivinar)
+                    {
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Te has equivocado... Se acabó el juego");
+                        return;
+                    }
+                }
+            }
+    }
+
+        private static List<int> SiguienteSerie(int i, List<int> nSerie)
         {
             Random rand = new Random();
 
-            //Array.Clear(nSerie, 0, nSerie.Length);
+            Console.Clear();
+            Console.WriteLine("Atento a los números");
             nSerie.Clear();
 
             for (int j = 0; j < i; j++)
             {
-                //nSerie[j] = rand.Next(1, 3);
-                nSerie.Add(rand.Next(1, 3));
+                nSerie.Add(rand.Next(1, 4));
             }
 
             bool primerElemento = true;
@@ -107,23 +148,7 @@ namespace ejerciciospropuestosdesdeel21.Ejercicios
                     Console.Write(", " + j);
                 }
             }
-
-            //foreach (int j in nSerie)
-            //{
-            //    Console.Write(j + ", ");
-            //}
-            //for (int j = 0; i < nSerie.Count; i++)
-            //{
-            //    if (nSerie[j] == nSerie.Count-1)
-            //    {
-            //        Console.Write(nSerie[j]);
-            //    }
-            //    else
-            //    {
-            //        Console.Write(nSerie[j] + ", ");
-            //    }
-            //}
-
+            return nSerie;
         }
     }
 }
