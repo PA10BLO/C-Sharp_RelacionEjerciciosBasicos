@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\bin\Debug\net6.0\ejerciciospropuestosdesdeel21.exe
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\bin\Debug\net6.0\ejerciciospropuestosdesdeel21.deps.json
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\bin\Debug\net6.0\ejerciciospropuestosdesdeel21.runtimeconfig.json
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\bin\Debug\net6.0\ejerciciospropuestosdesdeel21.dll
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\bin\Debug\net6.0\ejerciciospropuestosdesdeel21.pdb
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\obj\Debug\net6.0\ejerciciospropuestosdesdeel21.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\obj\Debug\net6.0\ejerciciospropuestosdesdeel21.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\obj\Debug\net6.0\ejerciciospropuestosdesdeel21.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\obj\Debug\net6.0\ejerciciospropuestosdesdeel21.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\obj\Debug\net6.0\ejerciciospropuestosdesdeel21.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\obj\Debug\net6.0\ejerciciospropuestosdesdeel21.dll
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\obj\Debug\net6.0\refint\ejerciciospropuestosdesdeel21.dll
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\obj\Debug\net6.0\ejerciciospropuestosdesdeel21.pdb
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\obj\Debug\net6.0\ejerciciospropuestosdesdeel21.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\ejercicios propuestos\ejerciciospropuestosdesdeel21\ejerciciospropuestosdesdeel21\obj\Debug\net6.0\ref\ejerciciospropuestosdesdeel21.dll
