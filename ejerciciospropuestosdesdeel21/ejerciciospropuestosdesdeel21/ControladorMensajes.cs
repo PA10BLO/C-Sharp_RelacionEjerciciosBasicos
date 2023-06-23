@@ -53,29 +53,6 @@ namespace ejerciciospropuestosdesdeel21
                         check = false;
                     }
                     
-
-                    //if (mensaje.Equals("menu"))
-                    //{
-                    //    //string sd = n.ToString();
-                    //    //prueba = sd + " >";
-                    //    while( sd.Key != ConsoleKey.Enter)
-                    //    {
-                    //        sd = Console.ReadKey(true);
-                    //        if(contador == 0)
-                    //        {
-                    //            Console.Write(sd.KeyChar);
-                    //        }
-                    //        else {
-                    //            Console.Write(sd.KeyChar + ">");
-                    //            Console.SetCursorPosition(Console.CursorLeft - 1, Console.CursorTop);
-                    //        }
-                    //        contador++;
-
-                    //    }
-                    //}
-                    //else
-                    //{
-                    ////n = Console.Read().ToString();
                         Convert.ChangeType(n, typeof(T));
                     //}                   
                     
@@ -115,25 +92,6 @@ namespace ejerciciospropuestosdesdeel21
                 Console.WriteLine();
                 Console.WriteLine(mensaje);
             }
-            //if (mensaje.Equals("Introduce X kilometro y te diré como varía la gravedad a esa altitud hasta tu kilometro introducido."))
-            //{
-            //    Console.Clear();
-            //    Console.WriteLine();
-            //    Console.WriteLine(mensaje);
-            //}
-            //if (mensaje.Equals("Digame su fecha de nacimiento para calcularle el descuento"))
-            //{
-            //    Console.Clear();
-            //    Console.WriteLine();
-            //    Console.WriteLine(mensaje);
-            //}
-            //if (mensaje.Equals("Introduce un numero PAR y te diré que numeros primos sumandos entre si dan como resultado este numero."))
-            //{
-            //    Console.Clear();
-            //    Console.WriteLine();
-            //    Console.WriteLine(mensaje);
-            //}
-            //if
 
         }
     }
